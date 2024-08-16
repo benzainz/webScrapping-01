@@ -1,8 +1,9 @@
-Hacker News Article Date Checker
+##Hacker News Article Date Checker
+
 This script is designed to automate the process of checking if the articles listed on the "Newest" section of Hacker News are in the correct chronological order.
 It uses the Playwright library to interact with the website and extract the publication dates of articles.
 
-Prerequisites
+#Prerequisites
 Before running this script, ensure you have the following installed:
 
 Node.js (version 14 or higher)
@@ -10,7 +11,7 @@ npm (Node Package Manager)
 Playwright
 
 
-The script will display a list of the first 100 article publication dates along with their corresponding positions.
+#The script will display a list of the first 100 article publication dates along with their corresponding positions.
 It will then check if these articles are ordered correctly by date and print a message indicating whether they are ordered correctly or not.
 How It Works
 Launch Browser: The script launches a headless instance of the Chrome browser using Playwright.
